@@ -1,0 +1,41 @@
+span {
+    margin:0px;
+    padding:0px;
+    display:block;
+}
+
+.board {
+    width:480px;
+    height:480px;
+}
+.tile {
+    width: 60px;
+    height: 60px;
+    display:block;
+    float:left;
+    border-width:0px;
+}
+
+.black {
+    background-color:#000;
+    border-style:solid;
+    border-color:#fff;
+}
+
+.white {
+    background-color:#fff;
+    border-style:solid;
+    border-color:#000;
+}
+
+.piece {
+    margin:15px;
+    width:28px;
+    height:28px;
+    border-width:1px;
+}
+    
+.message-box {
+    width:478px;
+    border:1px solid #000;
+}
